@@ -1,7 +1,7 @@
 import React from "react";
 import "./modal.css";
 
-const Modal = ({ onClose, link }) => {
+export const Modal = ({ onClose, link }) => {
 	return (
 		<div className="modal" onClick={onClose}>
 			<div className="modal__container">
@@ -26,5 +26,3 @@ const Modal = ({ onClose, link }) => {
 		</div>
 	);
 };
-
-export default Modal;
