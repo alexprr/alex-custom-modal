@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = void 0;
+exports.Modal = void 0;
 var _react = _interopRequireDefault(require("react"));
 require("./modal.css");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -37,5 +37,4 @@ const Modal = _ref => {
     class: "fa-solid fa-xmark modal__close-icon"
   }))));
 };
-var _default = Modal;
-exports.default = _default;
+exports.Modal = Modal;
